@@ -1,0 +1,404 @@
+header {
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1586105251261-72a756497a11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+ background-size: cover;
+font-family: 'lobster', cursive;
+    background-position: center;
+height: 700px;
+  text-align: center;
+ font-size: 35px;
+}
+
+p{
+font-family: 'dancing script', cursive;
+
+}
+
+.logo-text h1{
+margin-top: 0;
+padding-top: 0;
+}
+
+.utu h2{
+text-align: center;
+font-family: 'lobster', cursive;
+font-size: 50px;
+}
+
+.wrapper{
+width:85%;
+margin-left: 80px;
+}
+.wrapper .title{
+text-align: center;
+margin-bottom: 60px;
+}
+.wrapper .title h2{
+text-transform: capitalize;
+font-size: 36px;
+position: relative;
+display: inline-block;
+padding-bottom: 10px;
+}
+.wrapper .title h2 span{
+display: block;
+font-size: 18px;
+margin-bottom:-15px;
+}
+
+.wrapper .title h2:before{
+position: absolute;
+content: "";
+width: 100px;
+height: 2px;
+background-color: #ff7720;
+bottom: 0;
+left:50%;
+transform: translateX(-50%);
+}
+
+.wrapper .menu{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.wrapper .menu .single-menu {
+flex-basis:580px;
+padding-bottom: 40px;
+margin-bottom: 40px;
+border-bottom: 1px solid #ddd;
+}
+
+.wrapper .menu .single-menu{
+display: flex;
+flex-direction: row;
+align-items:center;
+}
+.wrapper .menu .single-menu img{
+max-width: 180px;
+margin-right:30px;
+border-radius:50%;
+border: 1px solid #ddd;
+padding: 3px;
+transition:0.5s;
+}
+
+.wrapper .menu .single-menu h4{
+text-transform: capitalize;
+font-size: 22px;
+border-bottom: 1px dashed #333;
+margin-bottom: 5px;
+padding-bottom: 5px;
+}
+.wrapper .menu .single-menu h4 span{
+float:right;
+color: #ff7720;
+font-style: italic;
+
+}
+
+.wrapper .menu .single-menu:hover img{
+border-radius: 0;
+}
+
+.menu-content p{
+font-size: 20px;
+font-family: dancing script;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo p{
+float: left;
+font-sixe:30px;
+font-family: 'Pacifico', cursive;
+padding: 25px;
+color: white;
+}
+.block{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.block h1{
+  color:#f1f1f1;
+font-size: 70px;
+}
+
+h1{
+text-align: center;
+font-size: 50px;
+font-family: 'lobster', cursive;
+
+}
+
+.nav ul{
+float: right;
+list-style-type: none;
+margin-top: 25px;
+}
+.nav ul li{
+display: inline-block;
+}
+.nav ul li a{
+text-decoration: none;
+
+font-family: 'lobster', cursive;
+padding: 5px 20px;
+font-size: 20px;
+color: #fff;
+
+border: 1px solid transparent;
+transition: 0.6s ease;
+}
+.nav ul li a:hover{
+background-color: #fff;
+color: #000;
+}
+
+.nav ul li.active a{
+background-color: #fff;
+color: #000;
+}
+
+.team-area{
+justify-content: space-around;
+width: 90%;
+display: flex;
+
+}
+
+.single-team{
+margin-bottom: 100px;
+margin-top: 50px;
+margin-left: 140px;
+background: #fff;
+width: 1000px;
+height: 400px;
+padding: 24px;
+position: relative;
+display: flex;
+align-items: flex-end;
+transition: .6s ease-out;
+box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.single-team:hover{
+transform: translateY(15px);
+
+}
+
+.single-team:hover:before{
+opacity: 1;
+}
+
+.single-team:hover .team-text{
+opacity: 1;
+transform: translateY(0);
+
+}
+
+.single-team:before{
+content='';
+position: absolute;
+top: 0;
+left:0;
+display: block;
+width: 100%;
+height: 100%;
+background: linear-gradient(to top, #000, transparent);
+z-index: 2;
+transition: 0.5s;
+opacity: 0;
+
+}
+
+.single-team img{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 5px;
+object-fit: cover;
+}
+
+.single-team .team-text{
+position: relative;
+z-index: 3;
+color: #000;
+opacity: 0;
+transform: translateY(60px);
+transition: 0.5s;
+}
+
+
+.team-text h3{
+margin: 0;
+font-family: 'lobster', cursive;
+letter-spacing: 3px;
+}
+
+.team-text p{
+letter-spacing: 1px;
+font-size: 15px;
+margin-top: 8px;
+font-family: sans-serif;
+}
+
+h3{
+text-align: center;
+font-size: 20px;
+font-family: 'lobster', cursive;
+margin-top: 20px;
+}
+
+
+
+.footer{
+background: #303036;
+color: #d3d3d3;
+height: 450px;
+position: relative;
+}
+
+.footer .footer-content{
+height: 400px;
+display: flex;
+}
+
+.footer .footer-content .footer-section{
+flex: 1;
+padding: 25px;
+}
+
+.footer .footer-content h1, .footer .footer-content h2{
+color: white;
+font-size: 25px;
+text-align: center;
+}
+.footer .footer-content p{
+text-align: left;
+font-size: 0.5cm;
+}
+
+.footer .footer-content .about a:hover{
+border: ipx solid white;
+color: white;
+transition: all .3s;
+}
+
+.footer .footer-content .about .contact span{
+display: block;
+font-size: 0.5cm;
+margin-bottom:8px;
+}
+
+
+
+.footer .footer-content .about .socials .fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.footer .footer-content .about .socials .fa:hover {
+    opacity: 0.7;
+}
+
+.footer .footer-content .about .socials .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.footer .footer-content .about .socials .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.footer .footer-content .about .socials .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.footer .footer-content .about .socials .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+.footer .footer-content .links ul a{
+display: block;
+margin-bottom: 10px;
+font-size: 0.5cm;
+transition: all 0.3s;
+}
+
+.footer .footer-content .links ul a:hover{
+color: white;
+margin-left: 15px;
+transition: all 0.3s;
+}
+
+.footer .footer-content .contact-form .contact-input{
+background: #272727;
+color: #bebdbd;
+margin-bottom: 5px;
+line-height: 0.5rem;
+padding: 1rem 9rem;
+border: none;
+margin-left: 20px;
+}
+
+.footer .footer-content .contact-form .contact-input:hover{
+background: #1a1a1a;
+}
+
+.btn-big{
+padding: 0.7rem 1.3rem;
+line-height: 1.3 rem;
+background: #006669;
+color: white;
+border: 1px solid transparent;
+border-radius: 0.25rem;
+float: right;
+}
+
+.btn-big:hover{
+background: #fff;
+color: #006669;
+}
+
+.footer .footer-bottom{
+background: #343a40;
+color: #686868;
+height: 50px;
+width: 100%;
+text-align: center;
+position: absolute;
+bottom: 0px;
+left: 0px;
+padding-top: 20px;
+}
+
+@media (max-width: 600px) 
+{
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

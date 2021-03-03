@@ -32,22 +32,22 @@ background-size:cover;.
 
 @keyframes animate{
 0%,100%{
-background-image: url("https://dh-prod-cdn.azureedge.net/-/media/property/jdv/kabuki/hotelkabuki_lobby_architectural_hero_horizontal-crpd1600x760.jpg?ts=1157aa62-dcac-4467-9277-68717b22ccdf");
+background-image: url(images/img2.jpg);
 }
 25%{
-background-image: url("http://www.columnbangkok.com/adminpanel/systemadmin/picup/columnbangkok-201908140622311.jpg");
+background-image: url(images/img1.jpg);
 }
 40%{
-background-image: url("http://www.columnbangkok.com/adminpanel/systemadmin/picup/columnbangkok-201908140450451.jpg");
+background-image: url(images/img3.jpg);
 }
 65%{
-background-image: url("http://www.columnbangkok.com/adminpanel/systemadmin/picup/columnbangkok-201905091005564.jpg");
+background-image: url(images/img4.jpg);
 }
 80%{
-background-image: url("http://www.columnbangkok.com/adminpanel/systemadmin/picup/columnbangkok-201905091005563.jpg");
+background-image: url(images/img5.jpg);
 }
 95%{
-background-image: url("http://www.columnbangkok.com/adminpanel/systemadmin/picup/columnbangkok-201908140623581.jpg");
+background-image: url(images/img6.jpg);
 }
 
 }
